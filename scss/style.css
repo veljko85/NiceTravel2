@@ -43,12 +43,13 @@
           top: 40%;
           transform: rotate(-45deg); }
       body nav .navBar {
-        width: 100%;
+        width: 90%;
         height: 900px;
         top: 220px;
         position: absolute;
         text-decoration: none;
-        text-align: center; }
+        text-align: center;
+        margin-left: 5%; }
         body nav .navBar a {
           text-decoration: none; }
           body nav .navBar a p {
@@ -58,7 +59,8 @@
             width: 100%; }
           body nav .navBar a .one, body nav .navBar a .two, body nav .navBar a .three, body nav .navBar a .four, body nav .navBar a .five, body nav .navBar a .six, body nav .navBar a .seven, body nav .navBar a .eight, body nav .navBar a .nine {
             display: none;
-            position: absolute; }
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.5); }
           body nav .navBar a .two {
             margin-top: 120px; }
           body nav .navBar a .three {
@@ -76,8 +78,13 @@
           body nav .navBar a .nine {
             margin-top: 960px; }
     body .section {
+      display: none;
       width: 100%;
-      display: none; }
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.5);
+      overflow: auto;
+      -ms-overflow-style: none;
+      text-align: center; }
       body .section .destinacije {
         width: 100%; }
         body .section .destinacije .dest {
@@ -92,6 +99,10 @@
             padding: 4%;
             box-shadow: none; }
           body .section .destinacije .dest h2 {
-            font-size: 2vh; } }
+            font-size: 2vh; }
+          body .section .destinacije .dest .let {
+            color: #ffb31a; }
+          body .section .destinacije .dest .zim {
+            color: #1ab2ff; } }
 
 /*# sourceMappingURL=style.css.map */
