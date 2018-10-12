@@ -34,7 +34,7 @@ $(document).ready(function(){
 		$(".eight").delay(700).fadeToggle();
 		$(".nine").delay(800).fadeToggle();
 
-		$(".section").fadeToggle();
+		$(".section").fadeIn();
 
 		$(".section").load($(this).attr("href")).hide().fadeIn();
         	return(false);
