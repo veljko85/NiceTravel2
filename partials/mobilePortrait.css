@@ -84,22 +84,22 @@
       overflow: auto;
       -ms-overflow-style: none;
       text-align: center; }
-      body .section .dest {
-        padding: 1%;
-        width: 29%;
-        text-align: center;
-        display: inline-block;
-        cursor: pointer; }
-        body .section .dest img {
-          border-radius: 50%;
-          width: 100%;
-          padding: 4%;
-          box-shadow: none; }
-        body .section .dest h2 {
-          font-size: 2vh; }
-        body .section .dest .let {
-          color: #ffb31a; }
-        body .section .dest .zim {
-          color: #1ab2ff; } }
+    body .dest {
+      padding: 1%;
+      width: 29%;
+      text-align: center;
+      display: inline-block;
+      cursor: pointer; }
+      body .dest img {
+        border-radius: 50%;
+        width: 100%;
+        padding: 4%;
+        box-shadow: none; }
+      body .dest h2 {
+        font-size: 2vh; }
+      body .dest .let {
+        color: #ffb31a; }
+      body .dest .zim {
+        color: #1ab2ff; } }
 
 /*# sourceMappingURL=mobilePortrait.css.map */
