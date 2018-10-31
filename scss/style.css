@@ -85,25 +85,22 @@
       overflow: auto;
       -ms-overflow-style: none;
       text-align: center; }
-      body .section .destinacije {
-        width: 100%;
-        height: 100%; }
-        body .section .destinacije .dest {
-          padding: 1%;
-          width: 29%;
-          text-align: center;
-          display: inline-block;
-          cursor: pointer; }
-          body .section .destinacije .dest img {
-            border-radius: 50%;
-            width: 100%;
-            padding: 4%;
-            box-shadow: none; }
-          body .section .destinacije .dest h2 {
-            font-size: 2vh; }
-          body .section .destinacije .dest .let {
-            color: #ffb31a; }
-          body .section .destinacije .dest .zim {
-            color: #1ab2ff; } }
+      body .section .dest {
+        padding: 1%;
+        width: 29%;
+        text-align: center;
+        display: inline-block;
+        cursor: pointer; }
+        body .section .dest img {
+          border-radius: 50%;
+          width: 100%;
+          padding: 4%;
+          box-shadow: none; }
+        body .section .dest h2 {
+          font-size: 2vh; }
+        body .section .dest .let {
+          color: #ffb31a; }
+        body .section .dest .zim {
+          color: #1ab2ff; } }
 
 /*# sourceMappingURL=style.css.map */

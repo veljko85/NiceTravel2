@@ -1,6 +1,6 @@
 $(document).ready(function()	{
 
-    	$(".destinacije").click( function(){
+    	$(".dest").click( function(){
         	$(".section").load($(this).attr("href")).hide().fadeIn();
             	return(false);
 
