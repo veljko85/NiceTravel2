@@ -1,0 +1,105 @@
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+  body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-image: url("../img/background-por.jpg");
+    background-color: lightblue;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    body nav {
+      width: 100%;
+      height: 200px;
+      font-family: 'Baloo', cursive; }
+      body nav img {
+        height: 180px;
+        margin: 10px 0 10px 10px;
+        float: left; }
+      body nav .hamburger {
+        height: 70px;
+        width: 100px;
+        float: right;
+        right: 10%;
+        top: 65px;
+        position: relative; }
+        body nav .hamburger .line1, body nav .hamburger .line2, body nav .hamburger .line3 {
+          width: 100%;
+          height: 20%;
+          background-color: #162EA6;
+          transition: transform .4s, top .4s;
+          position: absolute; }
+        body nav .hamburger .line1 {
+          top: 0; }
+        body nav .hamburger .line2 {
+          top: 40%; }
+        body nav .hamburger .line3 {
+          bottom: 0; }
+        body nav .hamburger .change1 {
+          top: 40%;
+          transform: rotate(45deg); }
+        body nav .hamburger .change2 {
+          top: 40%;
+          transform: rotate(-45deg); }
+      body nav .navBar {
+        width: 90%;
+        height: 900px;
+        top: 220px;
+        position: absolute;
+        text-decoration: none;
+        text-align: center;
+        margin-left: 5%; }
+        body nav .navBar a {
+          text-decoration: none; }
+          body nav .navBar a p {
+            font-size: 100px;
+            color: #162EA6;
+            padding: 10px 0 10px 0;
+            width: 100%; }
+          body nav .navBar a .one, body nav .navBar a .two, body nav .navBar a .three, body nav .navBar a .four, body nav .navBar a .five, body nav .navBar a .six, body nav .navBar a .seven, body nav .navBar a .eight, body nav .navBar a .nine {
+            display: none;
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.5); }
+          body nav .navBar a .two {
+            margin-top: 120px; }
+          body nav .navBar a .three {
+            margin-top: 240px; }
+          body nav .navBar a .four {
+            margin-top: 360px; }
+          body nav .navBar a .five {
+            margin-top: 480px; }
+          body nav .navBar a .six {
+            margin-top: 600px; }
+          body nav .navBar a .seven {
+            margin-top: 720px; }
+          body nav .navBar a .eight {
+            margin-top: 840px; }
+          body nav .navBar a .nine {
+            margin-top: 960px; }
+    body .section {
+      display: none;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.5);
+      overflow: auto;
+      -ms-overflow-style: none;
+      text-align: center; }
+    body .dest {
+      padding: 1%;
+      width: 29%;
+      text-align: center;
+      display: inline-block;
+      cursor: pointer; }
+      body .dest img {
+        border-radius: 50%;
+        width: 100%;
+        padding: 4%;
+        box-shadow: none; }
+      body .dest h2 {
+        font-size: 2vh; }
+      body .dest .let {
+        color: #ffb31a; }
+      body .dest .zim {
+        color: #1ab2ff; } }
+
+/*# sourceMappingURL=mobileTabletLandscape.css.map */
