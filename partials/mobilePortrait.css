@@ -77,6 +77,8 @@
           body nav .navBar a .nine {
             margin-top: 960px; }
     body .section {
-      display: none; } }
+      display: none;
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.5); } }
 
 /*# sourceMappingURL=mobilePortrait.css.map */
