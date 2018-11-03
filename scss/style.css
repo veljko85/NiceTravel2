@@ -87,18 +87,8 @@
       overflow: auto;
       -ms-overflow-style: none;
       text-align: center; }
-      body .section .dest {
-        padding: 1%;
-        width: 29%;
-        display: inline-block;
-        cursor: pointer; }
-        body .section .dest img {
-          border-radius: 50%;
-          width: 100%;
-          padding: 4%;
-          box-shadow: none; }
-        body .section .dest a {
-          font-size: 2vh; } }
+      body .section a {
+        font-size: 2vh; } }
 @media screen and (max-width: 1024px) and (orientation: landscape) {
   body {
     width: 100%;
