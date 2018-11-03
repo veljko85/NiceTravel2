@@ -80,7 +80,7 @@
       display: none;
       width: 100%;
       background-color: rgba(255, 255, 255, 0.5); }
-      body .section dest {
+      body .section .dest {
         width: 33.3%;
         float: left; } }
 
