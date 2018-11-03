@@ -98,7 +98,7 @@
           padding: 4%;
           box-shadow: none; }
         body .section .dest a {
-          font-size: 8vh; } }
+          font-size: 2vh; } }
 @media screen and (max-width: 1024px) and (orientation: landscape) {
   body {
     width: 100%;
