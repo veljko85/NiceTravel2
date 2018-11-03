@@ -135,25 +135,15 @@
 					overflow: auto;
 					-ms-overflow-style: none;
 					text-align: center;
+					
+					a   {
+						font-size: 2vh;
 
-					.dest	{
-							padding: 1%;
-							width: 29%;
-					    	display: inline-block;
-					    	cursor: pointer;
-									
-							img    { 
-								border-radius: 50%;
-								width: 100%;
-								padding: 4%;
-								box-shadow: none;
-							}
-									
-							a	{
-								font-size: 2vh;
-							}
 					}
-			}	
+
+			}
+
+
 
 
 			
