@@ -81,13 +81,14 @@
       width: 100%;
       background-color: rgba(255, 255, 255, 0.5); }
       body .section .dest {
-        width: 50%;
+        width: 48%;
         float: left;
-        text-align: center; }
-        body .section .dest img {
-          width: 90%;
-          border-radius: 50%; }
-        body .section .dest h2 {
-          font-size: 2vh; } }
+        text-align: center;
+        margin: 1% 0.5% 0.5% 1%; }
+      body .section img {
+        width: 90%;
+        border-radius: 50%; }
+      body .section h2 {
+        font-size: 2vh; } }
 
 /*# sourceMappingURL=mobilePortrait.css.map */
