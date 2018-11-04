@@ -87,8 +87,14 @@
       overflow: auto;
       -ms-overflow-style: none;
       text-align: center; }
-      body .section h2 {
-        font-size: 2vh; } }
+      body .section a {
+        width: 40vw;
+        height: 25vh;
+        background-color: red; }
+        body .section a img {
+          width: 90%; }
+        body .section a h2 {
+          font-size: 2vh; } }
 @media screen and (max-width: 1024px) and (orientation: landscape) {
   body {
     width: 100%;
