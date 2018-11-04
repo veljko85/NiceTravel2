@@ -50,7 +50,8 @@
         position: absolute;
         text-decoration: none;
         text-align: center;
-        margin-left: 5%; }
+        margin-left: 5%;
+        display: none; }
         body nav .navBar a {
           text-decoration: none; }
           body nav .navBar a p {
@@ -86,22 +87,18 @@
       overflow: auto;
       -ms-overflow-style: none;
       text-align: center; }
-    body .dest {
-      padding: 1%;
-      width: 29%;
-      text-align: center;
-      display: inline-block;
-      cursor: pointer; }
-      body .dest img {
-        border-radius: 50%;
-        width: 100%;
-        padding: 4%;
-        box-shadow: none; }
-      body .dest h2 {
-        font-size: 8vh; }
-      body .dest .let {
-        color: #ffb31a; }
-      body .dest .zim {
-        color: #1ab2ff; } }
+      body .section .dest {
+        padding: 1%;
+        width: 29%;
+        text-align: center;
+        display: inline-block;
+        cursor: pointer; }
+        body .section .dest img {
+          border-radius: 50%;
+          width: 100%;
+          padding: 4%;
+          box-shadow: none; }
+        body .section .dest h2 {
+          font-size: 8vh; } }
 
 /*# sourceMappingURL=mobileTabletLandscape.css.map */

@@ -73,6 +73,7 @@
 					text-decoration: none;
 					text-align: center;
 					margin-left: 5%;
+					display: none;
 
 					a 	{
 						text-decoration: none;
@@ -135,34 +136,27 @@
 					overflow: auto;
 					-ms-overflow-style: none;
 					text-align: center;
+
+					.dest	{
+							padding: 1%;
+							width: 29%;
+							text-align: center;
+					    	display: inline-block;
+					    	cursor: pointer;
+									
+							img    { 
+								border-radius: 50%;
+								width: 100%;
+								padding: 4%;
+								box-shadow: none;
+							}
+									
+							h2	{
+								font-size: 8vh;
+							}
+					}
 			}
 
-			.dest	{
-					padding: 1%;
-					width: 29%;
-					text-align: center;
-			    	display: inline-block;
-			    	cursor: pointer;
-							
-					img    { 
-						border-radius: 50%;
-						width: 100%;
-						padding: 4%;
-						box-shadow: none;
-					}
-							
-					h2	{
-						font-size: 8vh;
-					}
-
-					.let   {
-						color: #ffb31a;
-					}
-
-					.zim   {
-						color: #1ab2ff;
-					}
-			}		
 					
 			
 

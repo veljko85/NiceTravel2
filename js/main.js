@@ -6,6 +6,7 @@ $(document).ready(function(){
 		$(".line1").toggleClass("change1");
 		$(".line3").toggleClass("change2");
 
+		$(".navBar").show();
 		$(".one").fadeToggle();
 		$(".two").delay(100).fadeToggle();
 		$(".three").delay(200).fadeToggle();
@@ -33,6 +34,7 @@ $(document).ready(function(){
 		$(".seven").delay(600).fadeToggle();
 		$(".eight").delay(700).fadeToggle();
 		$(".nine").delay(800).fadeToggle();
+		$(".navBar").hide();
 
 		$(".section").fadeIn();
 

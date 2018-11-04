@@ -73,6 +73,7 @@
 					text-decoration: none;
 					text-align: center;
 					margin-left: 5%;
+					display: none;
 
 					a 	{
 						text-decoration: none;
@@ -127,36 +128,36 @@
 				}
 			}
 
-			.section	{
+			.section 	{
+					display: none;
 					width: 100%;
-					background-color: white;
+					height: 100%;
+					background-color: rgba(255,255,255,0.5);
+					overflow: auto;
+					-ms-overflow-style: none;
+					text-align: center;
 
-					a   {
-						width: 50%;
-						height: 50%;
-						background-color: red;
-
-						h2	{
-							font-size: 10vh;
-						}
+					.dest	{
+							padding: 1%;
+							width: 29%;
+							text-align: center;
+					    	display: inline-block;
+					    	cursor: pointer;
+									
+							img    { 
+								border-radius: 50%;
+								width: 100%;
+								padding: 4%;
+								box-shadow: none;
+							}
+									
+							h2	{
+								font-size: 8vh;
+							}
 					}
-
 			}
 
-
-
-
-
-			
-
-
-
-
-
-			
-
-	
-					
+				
 			
 
 	}			
