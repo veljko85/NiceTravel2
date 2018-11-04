@@ -10,7 +10,7 @@
 		    background-size: cover;
 		    background-repeat: no-repeat;
 
-			a   {
+		    a   {
 				text-decoration: none;
 			}
 
@@ -152,12 +152,69 @@
 							}
 									
 							h2	{
-								font-size: 8vh;
+								font-size: 2vh;
 							}
+					}
+
+					.let   {
+							color: #ffb31a;
+					}
+					
+					.let:hover img    {
+						box-shadow: inset -10px -10px 100px 1px #fcef00;
+					}
+					
+					.zim   {
+					    color: #1ab2ff;
+					}
+					
+					.zim:hover img    {
+						box-shadow: inset -10px -10px 100px 1px #1ab2ff;
+					}
+					
+					.met    {
+						color: #ff4d88;
+					}
+					
+					.met:hover img    {
+						box-shadow: inset -10px -10px 100px 1px #ff4d88;
+					}
+					
+					.ban    {
+						color: #47d147;
+					}   
+					
+					.ban:hover img    {
+						box-shadow: inset -10px -10px 100px 1px #47d147;
+					}
+					
+					.dal    {
+						color: #ffbf00;
+					}	
+					
+					.dal:hover img    {
+						box-shadow: inset -10px -10px 100px 1px #ffbf00;
+					}
+					
+					.sho    {
+						color: #cc9900;
+					}
+					
+					.sho:hover img    {
+						box-shadow: inset -10px -10px 100px 1px #cc9900;
+					}
+					
+					.izl    {
+						color: #00b33c;
+					}
+					
+					.izl:hover img    {
+						box-shadow: inset -10px -10px 100px 1px #00b33c;
 					}
 			}
 
-					
+
+				
 			
 
 	}			

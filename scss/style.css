@@ -100,7 +100,35 @@
           padding: 4%;
           box-shadow: none; }
         body .section .dest h2 {
-          font-size: 8vh; } }
+          font-size: 2vh; }
+      body .section .let {
+        color: #ffb31a; }
+      body .section .let:hover img {
+        box-shadow: inset -10px -10px 100px 1px #fcef00; }
+      body .section .zim {
+        color: #1ab2ff; }
+      body .section .zim:hover img {
+        box-shadow: inset -10px -10px 100px 1px #1ab2ff; }
+      body .section .met {
+        color: #ff4d88; }
+      body .section .met:hover img {
+        box-shadow: inset -10px -10px 100px 1px #ff4d88; }
+      body .section .ban {
+        color: #47d147; }
+      body .section .ban:hover img {
+        box-shadow: inset -10px -10px 100px 1px #47d147; }
+      body .section .dal {
+        color: #ffbf00; }
+      body .section .dal:hover img {
+        box-shadow: inset -10px -10px 100px 1px #ffbf00; }
+      body .section .sho {
+        color: #cc9900; }
+      body .section .sho:hover img {
+        box-shadow: inset -10px -10px 100px 1px #cc9900; }
+      body .section .izl {
+        color: #00b33c; }
+      body .section .izl:hover img {
+        box-shadow: inset -10px -10px 100px 1px #00b33c; } }
 @media screen and (max-width: 1024px) and (orientation: landscape) {
   body {
     width: 100%;
@@ -202,6 +230,34 @@
           padding: 4%;
           box-shadow: none; }
         body .section .dest h2 {
-          font-size: 8vh; } }
+          font-size: 2vh; }
+      body .section .let {
+        color: #ffb31a; }
+      body .section .let:hover img {
+        box-shadow: inset -10px -10px 100px 1px #fcef00; }
+      body .section .zim {
+        color: #1ab2ff; }
+      body .section .zim:hover img {
+        box-shadow: inset -10px -10px 100px 1px #1ab2ff; }
+      body .section .met {
+        color: #ff4d88; }
+      body .section .met:hover img {
+        box-shadow: inset -10px -10px 100px 1px #ff4d88; }
+      body .section .ban {
+        color: #47d147; }
+      body .section .ban:hover img {
+        box-shadow: inset -10px -10px 100px 1px #47d147; }
+      body .section .dal {
+        color: #ffbf00; }
+      body .section .dal:hover img {
+        box-shadow: inset -10px -10px 100px 1px #ffbf00; }
+      body .section .sho {
+        color: #cc9900; }
+      body .section .sho:hover img {
+        box-shadow: inset -10px -10px 100px 1px #cc9900; }
+      body .section .izl {
+        color: #00b33c; }
+      body .section .izl:hover img {
+        box-shadow: inset -10px -10px 100px 1px #00b33c; } }
 
 /*# sourceMappingURL=style.css.map */
