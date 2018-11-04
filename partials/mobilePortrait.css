@@ -87,6 +87,9 @@
       -ms-overflow-style: none;
       text-align: center; }
       body .section a {
-        font-size: 2vh; } }
+        font-size: 2vh;
+        width: 40%; }
+        body .section a img {
+          width: 100%; } }
 
 /*# sourceMappingURL=mobilePortrait.css.map */
