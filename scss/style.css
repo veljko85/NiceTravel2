@@ -86,7 +86,9 @@
       body .section a {
         width: 50%;
         height: 50%;
-        background-color: red; } }
+        background-color: red; }
+        body .section a h2 {
+          font-size: 10vh; } }
 @media screen and (max-width: 1024px) and (orientation: landscape) {
   body {
     width: 100%;
