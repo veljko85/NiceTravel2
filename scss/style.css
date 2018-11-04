@@ -80,21 +80,13 @@
           body nav .navBar a .nine {
             margin-top: 960px; }
     body .section {
-      display: none;
       width: 100%;
-      height: 100%;
-      background-color: rgba(255, 255, 255, 0.5);
-      overflow: auto;
-      -ms-overflow-style: none;
-      text-align: center; }
+      height: 50%;
+      background-color: white; }
       body .section a {
-        width: 40vw;
-        height: 25vh;
-        background-color: red; }
-        body .section a img {
-          width: 90%; }
-        body .section a h2 {
-          font-size: 2vh; } }
+        width: 50%;
+        height: 50%;
+        background-color: red; } }
 @media screen and (max-width: 1024px) and (orientation: landscape) {
   body {
     width: 100%;

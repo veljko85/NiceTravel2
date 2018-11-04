@@ -8,6 +8,8 @@
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat; }
+    body a {
+      text-decoration: none; }
     body nav {
       width: 100%;
       height: 200px;
@@ -96,7 +98,7 @@
         padding: 4%;
         box-shadow: none; }
       body .dest h2 {
-        font-size: 2vh; }
+        font-size: 8vh; }
       body .dest .let {
         color: #ffb31a; }
       body .dest .zim {
