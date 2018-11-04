@@ -86,7 +86,9 @@
       background-color: rgba(255, 255, 255, 0.5);
       overflow: auto;
       -ms-overflow-style: none;
-      text-align: center; } }
+      text-align: center; }
+      body .section h2 {
+        font-size: 2vh; } }
 @media screen and (max-width: 1024px) and (orientation: landscape) {
   body {
     width: 100%;
