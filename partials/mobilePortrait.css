@@ -43,42 +43,24 @@
         body nav .hamburger .change2 {
           top: 40%;
           transform: rotate(-45deg); }
-      body nav .navBar {
-        width: 90%;
-        height: 900px;
-        top: 220px;
-        position: absolute;
-        text-decoration: none;
-        text-align: center;
-        margin-left: 5%;
-        display: none; }
-        body nav .navBar a {
-          text-decoration: none; }
-          body nav .navBar a p {
-            font-size: 100px;
-            color: #162EA6;
-            padding: 10px 0 10px 0;
-            width: 100%; }
-          body nav .navBar a .one, body nav .navBar a .two, body nav .navBar a .three, body nav .navBar a .four, body nav .navBar a .five, body nav .navBar a .six, body nav .navBar a .seven, body nav .navBar a .eight, body nav .navBar a .nine {
-            display: none;
-            position: absolute;
-            background-color: rgba(255, 255, 255, 0.5); }
-          body nav .navBar a .two {
-            margin-top: 120px; }
-          body nav .navBar a .three {
-            margin-top: 240px; }
-          body nav .navBar a .four {
-            margin-top: 360px; }
-          body nav .navBar a .five {
-            margin-top: 480px; }
-          body nav .navBar a .six {
-            margin-top: 600px; }
-          body nav .navBar a .seven {
-            margin-top: 720px; }
-          body nav .navBar a .eight {
-            margin-top: 840px; }
-          body nav .navBar a .nine {
-            margin-top: 960px; }
+      body nav .wrap {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        margin-top: 200px;
+        position: absolute; }
+        body nav .wrap .navBar {
+          width: 50%;
+          height: 100%;
+          background-color: #E8E8E8;
+          float: right; }
+          body nav .wrap .navBar .one {
+            margin-top: 200px; }
+          body nav .wrap .navBar a {
+            margin: 50px 0 0 30px;
+            display: block; }
+            body nav .wrap .navBar a p {
+              font-size: 50px; }
     body .section {
       display: none;
       width: 100%;
