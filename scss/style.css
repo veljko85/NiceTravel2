@@ -91,13 +91,11 @@
       body .section .dest {
         padding: 1%;
         width: 29%;
-        text-align: center;
         display: inline-block;
         cursor: pointer; }
         body .section .dest img {
           border-radius: 50%;
           width: 100%;
-          padding: 4%;
           box-shadow: none; }
         body .section .dest h2 {
           font-size: 2vh; }
@@ -128,7 +126,16 @@
       body .section .izl {
         color: #00b33c; }
       body .section .izl:hover img {
-        box-shadow: inset -10px -10px 100px 1px #00b33c; } }
+        box-shadow: inset -10px -10px 100px 1px #00b33c; }
+      body .section #ret-but {
+        float: left;
+        width: 10%;
+        margin: 1%; }
+      body .section .veca {
+        width: 100%; }
+      body .section p {
+        font-size: 2vh;
+        text-align: left; } }
 @media screen and (max-width: 1024px) and (orientation: landscape) {
   body {
     width: 100%;
