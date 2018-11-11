@@ -1,10 +1,9 @@
 @media screen and (max-width: 1024px) and (orientation: portrait) {
   body {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     overflow-x: hidden;
-    background-image: url("../img/background-por.jpg");
-    background-color: lightblue;
+    background-image: linear-gradient(#add8e6, #eef7fa);
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat; }
@@ -13,7 +12,9 @@
     body nav {
       width: 100%;
       height: 200px;
-      font-family: 'Baloo', cursive; }
+      font-family: arial;
+      font-weight: 700;
+      border-bottom: 5px solid #53868b; }
       body nav img {
         height: 180px;
         margin: 10px 0 10px 10px;
@@ -43,24 +44,28 @@
         body nav .hamburger .change2 {
           top: 40%;
           transform: rotate(-45deg); }
-      body nav .wrap {
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.5);
-        margin-top: 200px;
-        position: absolute; }
-        body nav .wrap .navBar {
-          width: 50%;
-          height: 100%;
-          background-color: #E8E8E8;
-          float: right; }
-          body nav .wrap .navBar .one {
-            margin-top: 200px; }
-          body nav .wrap .navBar a {
-            margin: 50px 0 0 30px;
-            display: block; }
-            body nav .wrap .navBar a p {
-              font-size: 50px; }
+      body nav .navBar {
+        display: none;
+        width: 600px;
+        height: 1000px;
+        background-image: linear-gradient(#eef7fa, #fff);
+        position: absolute;
+        right: 0;
+        top: 205px;
+        box-shadow: -20px 20px 15px #888888; }
+        body nav .navBar .pon {
+          height: 100px; }
+          body nav .navBar .pon .gray {
+            display: none; }
+          body nav .navBar .pon .color {
+            padding: 25px 0 0 25px;
+            width: 50px;
+            height: 50px;
+            margin: 0; }
+          body nav .navBar .pon p {
+            font-size: 50px;
+            padding: 25px 0 0 100px;
+            color: gray; }
     body .section {
       display: none;
       width: 100%;

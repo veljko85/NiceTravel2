@@ -6,18 +6,14 @@ $(document).ready(function(){
 		$(".line1").toggleClass("change1");
 		$(".line3").toggleClass("change2");
 
-		$(".navBar").show();
-		$(".one").fadeToggle();
-		$(".two").delay(100).fadeToggle();
-		$(".three").delay(200).fadeToggle();
-		$(".four").delay(300).fadeToggle();
-		$(".five").delay(400).fadeToggle();
-		$(".six").delay(500).fadeToggle();
-		$(".seven").delay(600).fadeToggle();
-		$(".eight").delay(700).fadeToggle();
-		$(".nine").delay(800).fadeToggle();
+
+		$(".navBar").slideToggle(300);
+
+
+
 
 	});
+
 
 	$(".navBar a").click(function(){
 
@@ -25,16 +21,7 @@ $(document).ready(function(){
 		$(".line1").toggleClass("change1");
 		$(".line3").toggleClass("change2");
 
-		$(".one").fadeToggle();
-		$(".two").delay(100).fadeToggle();
-		$(".three").delay(200).fadeToggle();
-		$(".four").delay(300).fadeToggle();
-		$(".five").delay(400).fadeToggle();
-		$(".six").delay(500).fadeToggle();
-		$(".seven").delay(600).fadeToggle();
-		$(".eight").delay(700).fadeToggle();
-		$(".nine").delay(800).fadeToggle();
-		$(".navBar").hide();
+
 
 		$(".section").fadeIn();
 
