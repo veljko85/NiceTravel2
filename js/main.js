@@ -21,6 +21,8 @@ $(document).ready(function(){
 		$(".line1").toggleClass("change1");
 		$(".line3").toggleClass("change2");
 
+		$(".navBar").slideToggle(300);
+
 
 
 		$(".section").fadeIn();
