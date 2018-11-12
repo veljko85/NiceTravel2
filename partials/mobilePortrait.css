@@ -3,7 +3,7 @@
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
-    background-image: linear-gradient(#add8e6, #eef7fa);
+    background-image: linear-gradient(#add8e6, #fff);
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat; }
@@ -20,30 +20,31 @@
         margin: 10px 0 10px 10px;
         float: left; }
       body nav .hamburger {
-        height: 70px;
-        width: 100px;
+        height: 50px;
+        width: 70px;
         float: right;
-        right: 10%;
-        top: 65px;
+        right: 12%;
+        top: 80px;
         position: relative; }
-        body nav .hamburger .line1, body nav .hamburger .line2, body nav .hamburger .line3 {
-          width: 100%;
+        body nav .hamburger .line1, body nav .hamburger .line2 {
+          width: 80%;
           height: 20%;
-          background-color: #162EA6;
+          background-color: #53868b;
           transition: transform .4s, top .4s;
           position: absolute; }
         body nav .hamburger .line1 {
-          top: 0; }
-        body nav .hamburger .line2 {
-          top: 40%; }
-        body nav .hamburger .line3 {
-          bottom: 0; }
-        body nav .hamburger .change1 {
           top: 40%;
           transform: rotate(45deg); }
-        body nav .hamburger .change2 {
+        body nav .hamburger .line2 {
+          top: 40%;
+          left: 50%;
+          transform: rotate(-45deg); }
+        body nav .hamburger .change1 {
           top: 40%;
           transform: rotate(-45deg); }
+        body nav .hamburger .change2 {
+          top: 40%;
+          transform: rotate(45deg); }
       body nav .navBar {
         display: none;
         width: 600px;
@@ -65,7 +66,21 @@
           body nav .navBar .pon p {
             font-size: 50px;
             padding: 25px 0 0 100px;
-            color: gray; }
+            color: #53868b; }
+    body .homeSection {
+      display: none;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      -ms-overflow-style: none;
+      text-align: center;
+      font-family: arial;
+      background-color: red; }
+      body .homeSection .homeNews {
+        background-color: blue;
+        height: 300px;
+        width: 95%;
+        margin: 10px 0 0 2.5%; }
     body .section {
       display: none;
       width: 100%;
@@ -73,7 +88,8 @@
       background-color: rgba(255, 255, 255, 0.5);
       overflow: auto;
       -ms-overflow-style: none;
-      text-align: center; }
+      text-align: center;
+      font-family: arial; }
       body .section .dest {
         padding: 1%;
         width: 29%;

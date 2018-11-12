@@ -4,12 +4,10 @@
 			width: 100vw;
 			height: 100vh;
 			overflow-x: hidden;
-			background-image: linear-gradient(#add8e6, #eef7fa);
+			background-image: linear-gradient(#add8e6, #fff);
             -webkit-background-size: cover;
 		    background-size: cover;
 		    background-repeat: no-repeat;
-		    
-
 
 		    a   {
 				text-decoration: none;
@@ -30,41 +28,40 @@
 				}
 				
 				.hamburger	{
-					height: 70px;
-					width: 100px;
+					height: 50px;
+					width: 70px;
 					float: right;
-					right: 10%;
-					top: 65px;
+					right: 12%;
+					top: 80px;
 					position: relative;
 				
-					.line1, .line2, .line3 {
-						width: 100%;
+					.line1, .line2 {
+						width: 80%;
 						height: 20%;
-						background-color: #162EA6;
+						background-color: #53868b;
 						transition: transform .4s, top .4s;
 						position: absolute;
-						
 					}
-					
+
 					.line1	{
-						top: 0;
+						top: 40%;
+						transform: rotate(45deg);
+
 					}
 					
 					.line2	{
 						top: 40%;
+						left: 50%;
+						transform: rotate(-45deg);
 					}
 					
-					.line3	{
-						bottom: 0;
-					}
-
 					.change1	{
 						top: 40%;
-						transform: rotate(45deg);
+						transform: rotate(-45deg);
 					}
 					.change2	{
 						top: 40%;
-						transform: rotate(-45deg);
+						transform: rotate(45deg);
 					}
 				}
 
@@ -98,13 +95,40 @@
 						p   {
 							font-size: 50px;
 							padding: 25px 0 0 100px;
-							color: gray;
+							color: #53868b;
 						}
 					}
 				}
 	
 
 			}
+
+
+			.homeSection	{
+					display: none;
+					width: 100%;
+					height: 100%;
+					overflow: auto;
+					-ms-overflow-style: none;
+					text-align: center;
+					font-family: arial;
+					background-color: red;
+			
+					.homeNews	{
+						background-color: blue;
+						height: 300px;
+						width: 95%;
+						margin: 10px 0 0 2.5%;
+					}
+
+
+			}
+
+
+
+
+
+
 
 
 			.section 	{
@@ -115,6 +139,7 @@
 					overflow: auto;
 					-ms-overflow-style: none;
 					text-align: center;
+					font-family: arial;
 
 					.dest	{
 							padding: 1%;

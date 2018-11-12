@@ -1,14 +1,15 @@
 $(document).ready(function(){
 
+	$(".homeSection").show().load("templates/homeSection.html");
+
+
 	$(".hamburger").click(function(){
 
-		$(".line2").fadeToggle();
-		$(".line1").toggleClass("change1");
-		$(".line3").toggleClass("change2");
 
+		$(".line1").toggleClass("change1");
+		$(".line2").toggleClass("change2");
 
 		$(".navBar").slideToggle(300);
-
 
 
 
@@ -17,13 +18,13 @@ $(document).ready(function(){
 
 	$(".navBar a").click(function(){
 
-		$(".line2").fadeToggle();
+
 		$(".line1").toggleClass("change1");
-		$(".line3").toggleClass("change2");
+		$(".line2").toggleClass("change2");
 
 		$(".navBar").slideToggle(300);
 
-
+		$(".homeSection").hide();
 
 		$(".section").fadeIn();
 
