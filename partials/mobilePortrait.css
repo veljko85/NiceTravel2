@@ -6,7 +6,10 @@
     background-image: linear-gradient(#add8e6, #fff);
     -webkit-background-size: cover;
     background-size: cover;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    /*------------------------NAVIGATION BAR--------------------*/
+    /*------------------------HOME SECTION--------------------*/
+    /*------------------------CONTENT--------------------*/ }
     body a {
       text-decoration: none; }
     body nav {
@@ -14,7 +17,8 @@
       height: 200px;
       font-family: arial;
       font-weight: 700;
-      border-bottom: 5px solid #53868b; }
+      border-bottom: 5px solid #53868b;
+      position: fixed; }
       body nav img {
         height: 180px;
         margin: 10px 0 10px 10px;
@@ -75,7 +79,7 @@
       -ms-overflow-style: none;
       text-align: center;
       font-family: arial;
-      background-color: red; }
+      background-color: transparent; }
       body .homeSection .homeNews {
         background-color: blue;
         height: 300px;
