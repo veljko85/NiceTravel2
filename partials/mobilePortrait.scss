@@ -116,9 +116,10 @@
 					background-color: transparent;
 			
 					.homeNews	{
-						background-color: blue;
+						background-color: transparent;
 						height: 300px;
 						width: 95%;
+						border: 5px solid #53868b;
 						margin: 10px 0 0 2.5%;
 					}
 
@@ -153,9 +154,15 @@
 								width: 100%;
 								box-shadow: none;
 							}
+
+							h1	{
+								font-size: 75px;
+								text-align: right;
+								font-style: italic;
+							}
 									
 							h2	{
-								font-size: 2vh;
+								font-size: 40px;
 							}
 					}
 

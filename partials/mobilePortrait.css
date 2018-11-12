@@ -81,9 +81,10 @@
       font-family: arial;
       background-color: transparent; }
       body .homeSection .homeNews {
-        background-color: blue;
+        background-color: transparent;
         height: 300px;
         width: 95%;
+        border: 5px solid #53868b;
         margin: 10px 0 0 2.5%; }
     body .section {
       display: none;
@@ -103,8 +104,12 @@
           border-radius: 50%;
           width: 100%;
           box-shadow: none; }
+        body .section .dest h1 {
+          font-size: 75px;
+          text-align: right;
+          font-style: italic; }
         body .section .dest h2 {
-          font-size: 2vh; }
+          font-size: 40px; }
       body .section .let {
         color: #ffb31a; }
       body .section .let:hover img {
