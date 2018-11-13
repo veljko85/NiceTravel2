@@ -9,6 +9,7 @@
     background-repeat: no-repeat;
     /*------------------------NAVIGATION BAR--------------------*/
     /*------------------------HOME SECTION--------------------*/
+    /*------------------------CONTENT--------------------*/
     /*------------------------CONTENT--------------------*/ }
     body a {
       text-decoration: none; }
@@ -152,7 +153,41 @@
         width: 100%; }
       body .section p {
         font-size: 2vh;
-        text-align: left; } }
+        text-align: left; }
+    body .bottom {
+      width: 100%;
+      bottom: 0;
+      background-color: #8aacb8;
+      box-sizing: border-box; }
+      body .bottom #logo {
+        width: 50%;
+        margin: 5% 0 0 10%; }
+      body .bottom #homeInfo {
+        width: 70%;
+        margin: 5% 0 0 10%;
+        font-family: arial;
+        font-size: 50px; }
+        body .bottom #homeInfo p {
+          padding-bottom: 50px;
+          color: #fff; }
+        body .bottom #homeInfo h5 {
+          padding-bottom: 50px;
+          color: #cead00; }
+        body .bottom #homeInfo img {
+          width: 50%;
+          margin-left: 10%; }
+      body .bottom .social {
+        width: 50%;
+        margin: 10% 0 0 25%;
+        padding-bottom: 100px;
+        text-align: center; }
+        body .bottom .social img {
+          width: 50px;
+          display: inline-block; }
+        body .bottom .social #space {
+          width: 50px;
+          height: 50px;
+          display: inline-block; } }
 @media screen and (max-width: 1024px) and (orientation: landscape) {
   body {
     width: 100%;

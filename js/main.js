@@ -1,6 +1,8 @@
 $(document).ready(function(){
 
 	$(".homeSection").show().load("templates/homeSection.html"); 
+	$(".bottom").load("templates/bottom.html"); 
+
 
 
 
