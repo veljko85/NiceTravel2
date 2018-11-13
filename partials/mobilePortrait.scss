@@ -9,6 +9,7 @@
 		    background-size: cover;
 		    background-repeat: no-repeat;
 
+
 		    a   {
 				text-decoration: none;
 			}
@@ -20,6 +21,9 @@
 				font-weight: 700;
 				border-bottom: 5px solid #53868b;
 				position: fixed;
+				background-color: #add8e6; 
+				top: 0;
+				box-sizing: border-box;
 
 				
 				img	{
@@ -114,13 +118,16 @@
 					text-align: center;
 					font-family: arial;
 					background-color: transparent;
+					margin-top: 200px;
+
 			
 					.homeNews	{
 						background-color: transparent;
-						height: 290px;
+						height: 300px;
 						width: 95%;
 						border: 5px solid #53868b;
-						margin: 10px 0 0 2%;
+						margin: 10px 0 0 2.5%;
+						box-sizing: border-box;
 					}
 
 
@@ -142,6 +149,7 @@
 					-ms-overflow-style: none;
 					text-align: center;
 					font-family: arial;
+					margin-top: 200px;
 
 					.dest	{
 							padding: 1%;

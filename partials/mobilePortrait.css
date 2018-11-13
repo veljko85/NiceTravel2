@@ -18,7 +18,10 @@
       font-family: arial;
       font-weight: 700;
       border-bottom: 5px solid #53868b;
-      position: fixed; }
+      position: fixed;
+      background-color: #add8e6;
+      top: 0;
+      box-sizing: border-box; }
       body nav img {
         height: 180px;
         margin: 10px 0 10px 10px;
@@ -79,13 +82,15 @@
       -ms-overflow-style: none;
       text-align: center;
       font-family: arial;
-      background-color: transparent; }
+      background-color: transparent;
+      margin-top: 200px; }
       body .homeSection .homeNews {
         background-color: transparent;
-        height: 290px;
+        height: 300px;
         width: 95%;
         border: 5px solid #53868b;
-        margin: 10px 0 0 2%; }
+        margin: 10px 0 0 2.5%;
+        box-sizing: border-box; }
     body .section {
       display: none;
       width: 100%;
@@ -94,7 +99,8 @@
       overflow: auto;
       -ms-overflow-style: none;
       text-align: center;
-      font-family: arial; }
+      font-family: arial;
+      margin-top: 200px; }
       body .section .dest {
         padding: 1%;
         width: 29%;
