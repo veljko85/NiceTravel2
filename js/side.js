@@ -16,7 +16,7 @@ $(document).ready(function()	{
 
 		$(".homeSection").hide();
 
-		$(".section").fadeIn();
+		$(".section").show();
 
 		$(".section").load($(this).attr("href")).hide().fadeIn();
         	return(false);
