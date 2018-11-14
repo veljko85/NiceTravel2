@@ -151,6 +151,12 @@
 					font-family: arial;
 					margin-top: 200px;
 
+					h1	{
+								font-size: 75px;
+								text-align: right;
+								font-style: italic;
+					}
+
 					.dest	{
 							padding: 1%;
 							width: 29%;
@@ -161,12 +167,6 @@
 								border-radius: 50%;
 								width: 100%;
 								box-shadow: none;
-							}
-
-							h1	{
-								font-size: 75px;
-								text-align: right;
-								font-style: italic;
 							}
 									
 							h2	{
