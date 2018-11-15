@@ -139,7 +139,7 @@
 																		/*------------------------CONTENT--------------------*/
 
 			.section 	{
-					display: none;
+					display: block;
 					width: 100%;
 					overflow: auto;
 					-ms-overflow-style: none;
@@ -166,11 +166,17 @@
 							width: 29%;
 					    	display: inline-block;
 					    	cursor: pointer;
-									
-							img    { 
+
+					img    { 
 								border-radius: 50%;
 								width: 100%;
 								box-shadow: none;
+							}
+
+							h2	{
+								font-size: 40px;
+								float: none;
+
 							}
 					}
 
