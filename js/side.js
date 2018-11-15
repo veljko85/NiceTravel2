@@ -1,6 +1,10 @@
 $(document).ready(function()	{
 
-    	$("a").click( function(){
+    	$(".dest").click( function(){
+        	$(".section").load($(this).attr("href")).hide().fadeIn();
+            	return(false);
+
+        $("#ret-but").click( function(){
         	$(".section").load($(this).attr("href")).hide().fadeIn();
             	return(false);
 
