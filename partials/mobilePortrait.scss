@@ -235,6 +235,9 @@
 					.izl:hover img    {
 						box-shadow: inset -10px -10px 100px 1px #00b33c;
 					}
+					.gal	{
+						color: #4c4cff;
+					}
 
 					#ret-but    {
 							float: left;
@@ -249,6 +252,17 @@
 					p	{
 						font-size: 2vh;
 						text-align: left;
+					}
+
+					.gallery	{
+						width: 100%;
+
+
+						img   {
+							width: 18.2%;
+							float: left;
+							padding: 1% 0.5% 0 1%;
+						}
 					}
 			
 			}
