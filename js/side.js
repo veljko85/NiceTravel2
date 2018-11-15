@@ -14,8 +14,6 @@ $(document).ready(function()	{
 
 		$(".navBar").slideToggle(300);
 
-		$(".homeSection").hide();
-
 		$(".section").show();
 
 		$(".section").load($(this).attr("href")).hide().fadeIn();
