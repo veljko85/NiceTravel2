@@ -76,9 +76,7 @@
             padding: 25px 0 0 100px;
             color: #53868b; }
     body .homeSection {
-      display: none;
       width: 100%;
-      height: 100%;
       overflow: auto;
       -ms-overflow-style: none;
       text-align: center;
@@ -95,13 +93,21 @@
     body .section {
       display: none;
       width: 100%;
-      height: 100%;
-      background-color: rgba(255, 255, 255, 0.5);
       overflow: auto;
       -ms-overflow-style: none;
       text-align: center;
       font-family: arial;
       margin-top: 200px; }
+      body .section h1 {
+        font-size: 75px;
+        font-weight: 700;
+        font-style: italic; }
+      body .section h2 {
+        float: right;
+        font-size: 75px;
+        font-weight: 700;
+        ont-style: italic;
+        margin: 10px; }
       body .section .dest {
         padding: 1%;
         width: 29%;
@@ -111,12 +117,6 @@
           border-radius: 50%;
           width: 100%;
           box-shadow: none; }
-        body .section .dest h1 {
-          font-size: 75px;
-          text-align: right;
-          font-style: italic; }
-        body .section .dest h2 {
-          font-size: 40px; }
       body .section .let {
         color: #ffb31a; }
       body .section .let:hover img {
@@ -147,8 +147,8 @@
         box-shadow: inset -10px -10px 100px 1px #00b33c; }
       body .section #ret-but {
         float: left;
-        width: 10%;
-        margin: 1%; }
+        width: 75px;
+        margin: 10px; }
       body .section .veca {
         width: 100%; }
       body .section p {
