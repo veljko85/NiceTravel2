@@ -95,7 +95,7 @@
       body .homeSection .two img, body .homeSection .three img {
         width: 100%; }
     body .section {
-      display: block;
+      display: none;
       width: 100%;
       min-height: 100vh;
       overflow: auto;
