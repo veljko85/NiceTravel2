@@ -91,7 +91,7 @@
         box-sizing: border-box; }
       body .homeSection .one img {
         height: 100vh;
-        margin: -200px 0 0 -120%; }
+        margin-left: -120%; }
       body .homeSection .two img, body .homeSection .three img {
         width: 100%; }
     body .section {
