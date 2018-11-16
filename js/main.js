@@ -1,11 +1,17 @@
+$(function(){
+     $('.carousel').carousel({	
+      interval: 4000
+    });
+});
+
+
+
 $(document).ready(function(){
 
 	$(".homeSection").load("templates/homeSection.html"); 
 	$(".bottom").load("templates/bottom.html"); 
 
-	$('.carousel').carousel({
-		interval : 4000;
-	});
+
 
 
 
