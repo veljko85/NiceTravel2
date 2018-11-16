@@ -1,7 +1,7 @@
 $(document).ready(function()	{
 
     	$("a").click( function(){
-        	$(".section").load($(this).attr("href"));
+        	$(".section").load($(this).attr("href")).hide().fadeIn();
             	return(false);
 
     }); 
@@ -16,7 +16,7 @@ $(document).ready(function()	{
 
 		$(".section").slideToggle();
 
-		$(".section").load($(this).attr("href"));
+		$(".section").load($(this).attr("href")).hide().fadeIn();
         	return(false);
 		
 

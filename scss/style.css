@@ -61,7 +61,8 @@
         position: absolute;
         right: 0;
         top: 205px;
-        box-shadow: -20px 20px 15px #888888; }
+        box-shadow: -20px 20px 15px #888888;
+        z-index: 1000; }
         body nav .navBar .pon {
           height: 100px; }
           body nav .navBar .pon .gray {
@@ -82,7 +83,8 @@
       text-align: center;
       font-family: arial;
       background-color: transparent;
-      align-content: center; }
+      align-content: center;
+      margin-top: 200px; }
       body .homeSection .homeNews {
         height: 300px;
         width: 95%;
