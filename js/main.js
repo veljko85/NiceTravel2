@@ -9,6 +9,7 @@ $(document).ready(function(){
 
 	$(".homeSection").load("templates/homeSection.html"); 
 	$(".bottom").load("templates/bottom.html"); 
+	$(".ct p").fadeIn(2000);
 
 
 

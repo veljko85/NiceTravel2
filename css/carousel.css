@@ -1,3 +1,5 @@
+@media screen and (max-width: 1024px) and (orientation: portrait) {    
+
     html,body,ul,li {
         margin: 0;
         padding: 0;
@@ -19,6 +21,7 @@
     .ct {
         position: relative;
         align-content: center;
+        text-align: center;
     }
     .ct img {
         height: 100vh;
@@ -27,6 +30,16 @@
     }
     .ct li{
         float: left;
+    }
+    .ct p {
+        font-size: 100px;
+        color: #fff;
+        position: relative;
+        top: 50vh;
+        font-family: arial;
+        font-weight: 700;
+        background-color: rgba(0, 0, 0, 0.3);
+        display: none;
     }
     .bullet {
         position: absolute;
@@ -66,3 +79,5 @@
         display: block;
         clear: both;
     }
+
+}
