@@ -56,7 +56,6 @@
       body nav .navBar {
         display: none;
         width: 600px;
-        height: 1000px;
         background-image: linear-gradient(#eef7fa, #fff);
         position: absolute;
         right: 0;
