@@ -1,7 +1,7 @@
 $(document).ready(function()	{
 
     	$("a").click( function(){
-        	$(".section").show();
+
 
 			$(".load-btn-wrap").show();
 	        $(".load-btn-wrap").delay(700).fadeOut();
