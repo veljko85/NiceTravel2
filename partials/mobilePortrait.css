@@ -97,6 +97,7 @@
       body .section .section2 {
         width: 100%; }
       body .section .load-btn-wrap {
+        display: none;
         width: 100%;
         height: 100%;
         background-color: #fff;
