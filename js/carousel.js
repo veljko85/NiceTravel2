@@ -95,7 +95,7 @@ $.fn.carousel = function(){
                     var _this = this
                     this.clock = setInterval(function(){
                                 _this.doNext()
-                            },10000)
+                            },5000)
                 },
 
                 stop: function(){
