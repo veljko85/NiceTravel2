@@ -56,6 +56,7 @@
       body nav .navBar {
         display: none;
         width: 600px;
+        height: 900px;
         background-image: linear-gradient(#eef7fa, #fff);
         position: absolute;
         right: 0;
@@ -87,7 +88,7 @@
     body .section {
       display: none;
       width: 100%;
-      min-height: 100vh;
+      min-height: 100%;
       overflow: auto;
       -ms-overflow-style: none;
       text-align: center;
