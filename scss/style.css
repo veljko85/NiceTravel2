@@ -61,8 +61,7 @@
         position: absolute;
         right: 0;
         top: 205px;
-        box-shadow: -20px 20px 15px #888888;
-        z-index: 1000; }
+        box-shadow: -20px 20px 15px #888888; }
         body nav .navBar .pon {
           height: 100px; }
           body nav .navBar .pon .gray {
@@ -83,18 +82,8 @@
       text-align: center;
       font-family: arial;
       background-color: transparent;
-      align-content: center;
-      margin-top: 200px; }
-      body .homeSection .homeNews {
-        height: 300px;
-        width: 95%;
-        border: 5px solid #53868b;
-        margin: 10px 0 0 2.5%;
-        box-sizing: border-box; }
-      body .homeSection .one img {
-        height: 100vh;
-        margin-left: -120%; }
-      body .homeSection .two img, body .homeSection .three img {
+      align-content: center; }
+      body .homeSection .one img, body .homeSection .two img {
         width: 100%; }
     body .section {
       display: none;
