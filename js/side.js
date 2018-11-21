@@ -21,10 +21,5 @@ $(document).ready(function()	{
 		$(".navBar").slideToggle(300);
 
 		
-
-
-
-
-		
 	});
 }); 
