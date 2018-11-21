@@ -4,8 +4,8 @@ $(document).ready(function()	{
         	$(".section").load($(this).attr("href")).hide().fadeIn();
             	return(false);
 
-        $(".load-btn-wrap").show();
-	    $(".load-btn-wrap").delay(700).fadeOut();
+     /*   $(".load-btn-wrap").show();
+	    $(".load-btn-wrap").delay(700).fadeOut(); */
 
     }); 
 
@@ -21,8 +21,8 @@ $(document).ready(function()	{
 		$(".section").show().load($(this).attr("href")).hide().fadeIn();
         	return(false);
 		
-       	$(".load-btn-wrap").show();
-	    $(".load-btn-wrap").delay(700).fadeOut();
+       /*   $(".load-btn-wrap").show();
+	    $(".load-btn-wrap").delay(700).fadeOut(); */
 
 
 
