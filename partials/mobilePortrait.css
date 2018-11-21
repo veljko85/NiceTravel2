@@ -20,7 +20,8 @@
       font-weight: 700;
       border-bottom: 5px solid #53868b;
       position: fixed;
-      background-color: #add8e6;
+      /*	background-color: #fff; */
+      background-image: linear-gradient(to bottom right, #FDB813, #add8e6, #fff, #fff);
       top: 0;
       box-sizing: border-box; }
       body nav img {
@@ -101,7 +102,8 @@
         width: 100%;
         height: 100%;
         background-color: #fff;
-        position: absolute; }
+        position: absolute;
+        z-index: 10000; }
         body .section .load-btn-wrap .load-btn {
           margin: 60% auto;
           width: 150px; }
