@@ -4,6 +4,9 @@ $(document).ready(function()	{
         	$(".section").load($(this).attr("href")).hide().fadeIn();
             	return(false);
 
+        $(".load-btn").show();
+	    $(".load-btn").delay(700).fadeOut();
+
     }); 
 
     	$(".navBar a").click(function(){
@@ -18,7 +21,8 @@ $(document).ready(function()	{
 		$(".section").show().load($(this).attr("href")).hide().fadeIn();
         	return(false);
 		
-
+       	$(".load-btn").show();
+	    $(".load-btn").delay(700).fadeOut();
 
 
 
