@@ -2,8 +2,9 @@ $(document).ready(function()	{
 
     	$("a").click( function(){
 
-
-			$(".load-btn-wrap").show();
+		$(".section").show();	
+		
+		$(".load-btn-wrap").show();
 	        $(".load-btn-wrap").delay(700).fadeOut();
 
 	        $(".section2").load($(this).attr("href")).hide().fadeIn();
@@ -19,11 +20,10 @@ $(document).ready(function()	{
 
 		$(".navBar").slideToggle(300);
 
-		$(".section").show();
+		
 
 
-	   	$(".section2").load($(this).attr("href")).hide().fadeIn();
-        	return(false);
+
 
 		
 	});
