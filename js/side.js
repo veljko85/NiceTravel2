@@ -1,11 +1,13 @@
 $(document).ready(function()	{
 
     	$("a").click( function(){
-        	$(".section").load($(this).attr("href")).hide().fadeIn();
+        	$(".section").show();
+
+        	$(".section2").load($(this).attr("href")).hide().fadeIn();
             	return(false);
 
-       $(".load-btn-wrap").show();
-	    $(".load-btn-wrap").delay(700).fadeOut(); 
+	        $(".load-btn-wrap").show();
+	        $(".load-btn-wrap").delay(700).fadeOut(); 
 
     }); 
 
@@ -17,12 +19,12 @@ $(document).ready(function()	{
 
 		$(".navBar").slideToggle(300);
 
-
-		$(".section").show().load($(this).attr("href")).hide().fadeIn();
+		$(".section").show();
+		$(".section2").load($(this).attr("href")).hide().fadeIn();
         	return(false);
 		
-         $(".load-btn-wrap").show();
-	    $(".load-btn-wrap").delay(700).fadeOut(); 
+       	$(".load-btn-wrap").show();
+	    $(".load-btn-wrap").delay(700).fadeOut();
 
 
 
