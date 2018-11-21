@@ -5,7 +5,7 @@ $(document).ready(function()	{
             	return(false);
 
         $(".load-btn-wrap").show();
-	    $(".load-btn").delay(700).fadeOut();
+	    $(".load-btn-wrap").delay(700).fadeOut();
 
     }); 
 
@@ -22,7 +22,7 @@ $(document).ready(function()	{
         	return(false);
 		
        	$(".load-btn-wrap").show();
-	    $(".load-btn").delay(700).fadeOut();
+	    $(".load-btn-wrap").delay(700).fadeOut();
 
 
 
