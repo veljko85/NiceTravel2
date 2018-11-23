@@ -84,7 +84,9 @@
       font-family: arial;
       background-color: transparent;
       align-content: center; }
-      body .homeSection .one img, body .homeSection .two img {
+      body .homeSection .one .avioSira {
+        display: none; }
+      body .homeSection .one img {
         width: 100%; }
     body .section {
       display: none;
