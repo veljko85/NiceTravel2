@@ -27,8 +27,8 @@ $(document).ready(function(){
 						$("navBar").slideUp();
 						$(".line1").toggleClass("change1");
 						$(".line2").toggleClass("change2");
-		});
-
+					});
+		});			
 
 
 
