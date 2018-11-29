@@ -89,7 +89,7 @@
       body .homeSection .one img {
         width: 100%; }
     body .section {
-      display: none;
+      display: block;
       width: 100%;
       min-height: 100%;
       overflow: auto;
@@ -194,8 +194,9 @@
       body .section .veca {
         width: 100%; }
       body .section p {
-        font-size: 2vh;
-        text-align: left; }
+        font-size: 20px;
+        text-align: left;
+        padding: 10px 20px; }
       body .section .gallery {
         width: 100%; }
         body .section .gallery img {
@@ -205,7 +206,7 @@
     body .bottom {
       width: 100%;
       bottom: 0;
-      background-color: #8aacb8;
+      background-color: steelblue;
       box-sizing: border-box; }
       body .bottom #logo {
         width: 50%;

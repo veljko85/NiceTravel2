@@ -89,7 +89,7 @@
       body .homeSection .one img {
         width: 100%; }
     body .section {
-      display: none;
+      display: block;
       width: 100%;
       min-height: 100%;
       overflow: auto;
@@ -194,8 +194,9 @@
       body .section .veca {
         width: 100%; }
       body .section p {
-        font-size: 2vh;
-        text-align: left; }
+        font-size: 20px;
+        text-align: left;
+        padding: 10px 20px; }
       body .section .gallery {
         width: 100%; }
         body .section .gallery img {
@@ -205,7 +206,7 @@
     body .bottom {
       width: 100%;
       bottom: 0;
-      background-color: #8aacb8;
+      background-color: steelblue;
       box-sizing: border-box; }
       body .bottom #logo {
         width: 50%;
@@ -347,9 +348,11 @@
       -ms-overflow-style: none;
       text-align: center;
       font-family: arial;
-      margin: 0 auto;
-      padding-top: 100px;
-      background-color: rgba(255, 255, 255, 0.5); }
+      margin: 200px auto 100px auto;
+      border-radius: 3%;
+      padding-top: 0px;
+      background-color: rgba(255, 255, 255, 0.5);
+      box-shadow: 0px 0px 30px 10px #888888; }
       body .section .section2 {
         width: 100%; }
       body .section .load-btn-wrap {
@@ -389,85 +392,76 @@
     100% {
       transform: rotate(360deg); } }
       body .section h1 {
-        font-size: 50px;
+        font-size: 30px;
         font-weight: 700;
         font-style: italic; }
       body .section h2 {
         float: right;
-        font-size: 50px;
+        font-size: 30px;
         font-weight: 700;
         font-style: italic;
         margin: 10px; }
       body .section .dest {
-        padding: 1%;
-        width: 19%;
+        width: 10%;
         display: inline-block;
         cursor: pointer; }
         body .section .dest img {
           border-radius: 50%;
-          width: 100%;
-          box-shadow: none; }
+          width: 100%; }
         body .section .dest h2 {
-          font-size: 30px;
+          font-size: 20px;
           float: none; }
       body .section .let {
         color: #ffb31a; }
       body .section .let:hover img {
-        box-shadow: inset -10px -10px 100px 1px #fcef00; }
+        box-shadow: 0px 0px 30px 10px #fcef00; }
       body .section .zim {
         color: #1ab2ff; }
       body .section .zim:hover img {
-        box-shadow: inset -10px -10px 100px 1px #1ab2ff; }
+        box-shadow: 0px 0px 30px 10px #1ab2ff; }
       body .section .met {
         color: #ff4d88; }
       body .section .met:hover img {
-        box-shadow: inset -10px -10px 100px 1px #ff4d88; }
+        box-shadow: 0px 0px 30px 10px #ff4d88; }
       body .section .ban {
         color: #47d147; }
       body .section .ban:hover img {
-        box-shadow: inset -10px -10px 100px 1px #47d147; }
+        box-shadow: 0px 0px 30px 10px #47d147; }
       body .section .dal {
         color: #ffbf00; }
       body .section .dal:hover img {
-        box-shadow: inset -10px -10px 100px 1px #ffbf00; }
+        box-shadow: 0px 0px 30px 10px #ffbf00; }
       body .section .sho {
         color: #cc9900; }
       body .section .sho:hover img {
-        box-shadow: inset -10px -10px 100px 1px #cc9900; }
+        box-shadow: 0px 0px 30px 10px #cc9900; }
       body .section .izl {
         color: #00b33c; }
       body .section .izl:hover img {
-        box-shadow: inset -10px -10px 100px 1px #00b33c; }
-      body .section .gal {
-        color: #4c4cff; }
+        box-shadow: 0px 0px 30px 10px #00b33c; }
       body .section #ret-but {
         float: left;
-        width: 50px;
+        width: 30px;
         margin: 10px; }
       body .section .veca {
         width: 100%; }
       body .section p {
-        font-size: 5vh;
+        padding: 10px 20px;
+        font-size: 20px;
         text-align: left; }
-      body .section .gallery {
-        width: 100%; }
-        body .section .gallery img {
-          width: 18.2%;
-          float: left;
-          padding: 1% 0.5% 0 1%; }
     body .bottom {
-      width: 1200px;
+      width: 100%;
       bottom: 0;
-      background-color: #8aacb8;
+      background-color: steelblue;
       box-sizing: border-box;
       margin: 0 auto; }
       body .bottom #logo {
         width: 20%;
-        margin: 1% 0 0 10%;
+        margin: 1% 0 0 20%;
         float: left; }
       body .bottom #homeInfo {
         width: 50%;
-        margin-left: 40%;
+        margin-left: 50%;
         font-family: arial;
         font-size: 20px; }
         body .bottom #homeInfo p {
@@ -482,13 +476,14 @@
       body .bottom .social {
         width: 20%;
         text-align: center;
-        margin: 10px 0 0 80%; }
+        margin: 10px 0 0 20%;
+        padding-bottom: 20px; }
         body .bottom .social img {
-          width: 25px;
+          width: 20px;
           display: inline-block; }
         body .bottom .social #space {
-          width: 25px;
-          height: 25px;
+          width: 20px;
+          height: 20px;
           display: inline-block; } }
 @media screen and (min-width: 1001px) and (max-width: 1200px) {
   body {
@@ -585,9 +580,8 @@
       body .homeSection .one img {
         width: 100%; }
     body .section {
-      display: none;
+      display: block;
       width: 100%;
-      min-height: 100%;
       overflow: auto;
       -ms-overflow-style: none;
       text-align: center;
@@ -690,8 +684,9 @@
       body .section .veca {
         width: 100%; }
       body .section p {
-        font-size: 5vh;
-        text-align: left; }
+        font-size: 30px;
+        text-align: left;
+        padding: 10px 20px; }
       body .section .gallery {
         width: 100%; }
         body .section .gallery img {
@@ -701,7 +696,7 @@
     body .bottom {
       width: 100%;
       bottom: 0;
-      background-color: #8aacb8;
+      background-color: steelblue;
       box-sizing: border-box; }
       body .bottom #logo {
         width: 20%;

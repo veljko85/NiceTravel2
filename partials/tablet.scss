@@ -152,9 +152,8 @@
 																		/*------------------------CONTENT--------------------*/
 
 			.section 	{
-					display: none;
+					display: block;
 					width: 100%;
-					min-height: 100%;
 					overflow: auto;
 					-ms-overflow-style: none;
 					text-align: center;
@@ -314,8 +313,9 @@
 					}
 
 					p	{
-						font-size: 5vh;
+						font-size: 30px;
 						text-align: left;
+						padding: 10px 20px;
 					}
 
 					.gallery	{
@@ -336,7 +336,7 @@
 			.bottom   {
 					width: 100%;
 					bottom: 0;
-					background-color: #8aacb8; 
+					background-color: rgb(70,130,180); 
 				    box-sizing: border-box;
 
 				    #logo	{
