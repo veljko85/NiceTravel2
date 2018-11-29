@@ -16,15 +16,19 @@ $(document).ready(function(){
 
 
 
+
 	$(".hamburger").click(function(){
 
 
 		$(".line1").toggleClass("change1");
 		$(".line2").toggleClass("change2");
+		$(".navBar").slideToggle(300 function(){
+					$(".navBar a").click(function(){
+						$("navBar").slideUp();
+						$(".line1").toggleClass("change1");
+						$(".line2").toggleClass("change2");
+		});
 
-		
-
-		$(".navBar").slideToggle(300);
 
 
 
