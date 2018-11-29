@@ -89,7 +89,7 @@
       body .homeSection .one img {
         width: 100%; }
     body .section {
-      display: block;
+      display: none;
       width: 100%;
       min-height: 100%;
       overflow: auto;
@@ -342,7 +342,7 @@
       body .homeSection .one img {
         width: 100%; }
     body .section {
-      display: block;
+      display: none;
       width: 1200px;
       overflow: auto;
       -ms-overflow-style: none;
@@ -580,7 +580,7 @@
       body .homeSection .one img {
         width: 100%; }
     body .section {
-      display: block;
+      display: none;
       width: 100%;
       overflow: auto;
       -ms-overflow-style: none;
