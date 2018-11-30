@@ -28,7 +28,7 @@ $(document).ready(function(){
 		$(".navBar").toggleClass("navBarHeight");
 	});
 
-	$(".navBar a").on("click", (function(){
+	$(".navBar a").click(function(){
 
 		$(".line1").toggleClass("change1");
 		$(".line2").toggleClass("change2");
