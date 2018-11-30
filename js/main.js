@@ -37,8 +37,9 @@ $(document).ready(function(){
 
 		$(".gray").show();
 		$(".color").hide();
-		$(this).children(".color").show();
 		$(this).children(".gray").hide();
+		$(this).children(".color").show();
+		
 
 	});
 	
