@@ -34,6 +34,12 @@ $(document).ready(function(){
 		$(".line2").toggleClass("change2");
 
 		$(".navBar").toggleClass("navBarHeight");
+
+		$(".gray").show();
+		$(".color").hide();
+		$(this).children(".color").show();
+		$(this).children(".gray").hide();
+
 	});
 	
 
