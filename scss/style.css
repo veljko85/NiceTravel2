@@ -325,10 +325,6 @@
             font-size: 15px;
             padding: 0 0;
             color: #53868b; }
-        body nav .navBar .pon:hover .gray {
-          display: none; }
-        body nav .navBar .pon:hover .color {
-          display: block; }
         body nav .navBar .pon:hover p {
           color: #cead00; }
     body .homeSection {
