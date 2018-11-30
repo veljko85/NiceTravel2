@@ -119,7 +119,6 @@
       body .section .load-btn-wrap {
         display: none;
         width: 100%;
-        height: 100%;
         background-color: #fff;
         position: absolute;
         z-index: 10000; }
