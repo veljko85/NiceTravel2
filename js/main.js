@@ -35,8 +35,7 @@ $(document).ready(function(){
 
 		$(".navBar").toggleClass("navBarHeight");
 
-		$(".gray").show();
-		$(".color").hide();
+
 		$(this).children(".gray").hide();
 		$(this).children(".color").show();
 		
