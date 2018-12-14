@@ -12,11 +12,6 @@ $(document).ready(function()	{
             	return(false); 
 
     	}); 
-	$(".navBar a").click(function(){
 
-		$(".line1").toggleClass("change1");
-		$(".line2").toggleClass("change2");
-		$(".navBar").slideUp();
-	});	
 
 }); 
