@@ -16,7 +16,7 @@ $(document).ready(function(){
 
 
 
-
+if (document.body.clientWidth <= 1000 ) {
 	$(".hamburger").click(function(){
 
 
@@ -25,8 +25,9 @@ $(document).ready(function(){
 
 		
 
-		$(".navBar").toggleClass("navBarHeight");
+		$(".navBar").slideToggle();
 	});
+};
 
 	$(".navBar a").click(function(){
 

@@ -54,9 +54,6 @@
         body nav .hamburger .change2 {
           top: 40%;
           transform: rotate(45deg); }
-      body nav .navBarHeight {
-        height: 900px !important;
-        display: block !important; }
       body nav .navBar {
         display: none;
         width: 600px;

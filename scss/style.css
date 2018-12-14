@@ -54,13 +54,10 @@
         body nav .hamburger .change2 {
           top: 40%;
           transform: rotate(45deg); }
-      body nav .navBarHeight {
-        height: 900px !important;
-        display: block !important; }
       body nav .navBar {
         display: none;
         width: 600px;
-        height: 0;
+        height: 900px;
         background-image: linear-gradient(#eef7fa, #fff);
         position: absolute;
         right: 0;
