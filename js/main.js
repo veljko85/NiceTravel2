@@ -43,6 +43,7 @@ if (document.body.clientWidth > 1200){
 	$(".navBar a").click(function(){
 
 		$(".color").hide();
+		$(".gray").show();
 		$(this).find(".gray").hide();
 		$(this).find(".color").show();
 	});	
