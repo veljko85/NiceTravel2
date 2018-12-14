@@ -41,8 +41,8 @@ $(".navBar").load("templates/navBar.html");
 
 	$(".navBar a").click(function(){
 		$(".color").hide();
-		$(this).child(".gray").hide();
-		$(this).child(".color").show();
+		$(this).find(".gray").hide();
+		$(this).find(".color").show();
 	});	
 
 	
