@@ -15,7 +15,7 @@ $(document).ready(function(){
 
 
 
-
+if (document.body.clientWidth <= 1000) {
 	$(".hamburger").click(function(){
 
 
@@ -43,15 +43,15 @@ $(document).ready(function(){
 
 	});	
 
-
+}
 		
-
+if (document.body.clientWidth > 1200){
 	$(".navBar a").click(function(){
 		$(".color").hide();
 		$(this).find(".gray").hide();
 		$(this).find(".color").show();
 	});	
-
+}
 	
 	
 
