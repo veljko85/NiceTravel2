@@ -33,13 +33,7 @@ if (document.body.clientWidth <= 1000) {
 		$(".line2").toggleClass("change2");
 		$(".navBar").slideToggle();
 
-		$(".section").show();	
-		
-		$(".load-btn-wrap").show();
-	        $(".load-btn-wrap").delay(700).fadeOut();
 
-	        $(".section2").load($(this).attr("href")).hide().fadeIn();
-            	return(false); 
 
 	});	
 
@@ -47,14 +41,22 @@ if (document.body.clientWidth <= 1000) {
 		
 if (document.body.clientWidth > 1200){
 	$(".navBar a").click(function(){
+
 		$(".color").hide();
 		$(this).find(".gray").hide();
 		$(this).find(".color").show();
 	});	
 }
 	
-	
+	$(".navBar a").click(function(){	
+		$(".section").show();	
+		
+		$(".load-btn-wrap").show();
+	        $(".load-btn-wrap").delay(700).fadeOut();
 
+	        $(".section2").load($(this).attr("href")).hide().fadeIn();
+            	return(false); 	
+    });
 
 });
 
