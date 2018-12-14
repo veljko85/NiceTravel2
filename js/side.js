@@ -12,13 +12,6 @@ $(document).ready(function()	{
             	return(false); 
 
     	}); 
-if (document.body.clientWidth <= 1000 ){
-	$(".navBar a").click(function(){
 
-		$(".line1").toggleClass("change1");
-		$(".line2").toggleClass("change2");
-		$(".navBar").slideToggle();
-	});	
-};
 
 }); 
