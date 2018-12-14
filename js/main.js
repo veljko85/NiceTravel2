@@ -33,7 +33,7 @@ $(".navBar").load("templates/navBar.html");
 
 		$(".line1").toggleClass("change1");
 		$(".line2").toggleClass("change2");
-		$(".navBar").slideToggle();
+		$(".navBar").slideUp();
 	});	
 
 
