@@ -40,6 +40,7 @@ if (document.body.clientWidth <= 1000 ){
 		
 
 	$(".navBar a").click(function(){
+		$(".color").hide();
 		$(this).children(".gray").hide();
 		$(this).children(".color").show();
 	});	
